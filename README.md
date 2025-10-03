@@ -17,7 +17,7 @@ The objective of this project is to **build a sales forecasting system** that:
 
 ## 🏗️ Project Workflow
 
-```mermaid
+```
 graph TD
 A[Upload CSV File] --> B[Data Preprocessing]
 B --> C[Feature Engineering_lags]
