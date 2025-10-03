@@ -51,6 +51,7 @@ Retail-Sales-Forecasting/
 ├── requirements.txt               # Dependencies
 └── README.md                      # Project documentation
 
+
 📌 Features
 
 1. Upload sales data in CSV format.
@@ -79,12 +80,6 @@ Forecast Example:
 | 2023-04-13 | 629.02          |
 
 ▶️ How to Run
-
-Clone the repo:
-
-git clone https://github.com/your-username/Retail-Sales-Forecasting.git
-cd Retail-Sales-Forecasting
-
 
 Install dependencies:
 
