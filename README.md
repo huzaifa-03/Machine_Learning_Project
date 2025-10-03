@@ -25,6 +25,8 @@ Evaluate performance using MAE & R² score.
 Generate 7-day sales forecasts with interactive charts.
 
 🏗️ Project Workflow
+
+```mermaid
 graph TD
 A[Upload CSV File] --> B[Data Preprocessing]
 B --> C[Feature Engineering (lags)]
@@ -34,6 +36,7 @@ E --> F[Evaluate (MAE, R²)]
 F --> G[Future Forecast (7 Days)]
 G --> H[Interactive Dashboard in Streamlit]
 
+```markdown
 📂 Folder Structure
 Retail-Sales-Forecasting/
 │
