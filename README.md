@@ -28,7 +28,6 @@ F --> G[Future Forecast 7 Days]
 G --> H[Interactive Dashboard in Streamlit]
 
 
-```markdown
 📂 Folder Structure
 Retail-Sales-Forecasting/
 │
