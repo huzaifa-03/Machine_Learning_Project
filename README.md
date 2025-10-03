@@ -26,7 +26,7 @@ Generate 7-day sales forecasts with interactive charts.
 
 🏗️ Project Workflow
 
-```mermaid
+
 graph TD
 A[Upload CSV File] --> B[Data Preprocessing]
 B --> C[Feature Engineering_lags]
