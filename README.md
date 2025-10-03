@@ -29,12 +29,13 @@ Generate 7-day sales forecasts with interactive charts.
 ```mermaid
 graph TD
 A[Upload CSV File] --> B[Data Preprocessing]
-B --> C[Feature Engineering (lags)]
+B --> C[Feature Engineering_lags]
 C --> D[Train-Test Split]
 D --> E[Train Random Forest Model]
-E --> F[Evaluate (MAE, R²)]
-F --> G[Future Forecast (7 Days)]
+E --> F[Evaluate MAE R2]
+F --> G[Future Forecast 7 Days]
 G --> H[Interactive Dashboard in Streamlit]
+
 
 ```markdown
 📂 Folder Structure
