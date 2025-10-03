@@ -1,38 +1,29 @@
-📊 Retail Sales Forecasting App
-🚀 Problem Statement
+# 📊 Retail Sales Forecasting App
 
-Retail businesses struggle to predict future sales accurately due to fluctuating customer demand, seasonality, and multiple influencing factors such as price and quantity.
-Without accurate forecasts, businesses may:
+A machine learning project that predicts daily retail sales and provides a **7-day sales forecast** using a **Random Forest Regressor**.  
+The app is deployed with **Streamlit** and allows interactive exploration of forecasts.
 
-Overestimate sales → leading to overstocking and losses.
+---
 
-Underestimate sales → causing stockouts and missed opportunities.
+## 📝 Problem Statement
+Retail businesses often struggle to forecast future sales accurately due to fluctuating demand and changing buying patterns.  
+The objective of this project is to **build a sales forecasting system** that:
+- Analyzes historical sales data  
+- Learns patterns using machine learning  
+- Provides accurate short-term (7-day) forecasts  
+- Visualizes actual vs predicted sales interactively  
 
-📌 Goal: Build a Machine Learning powered Sales Forecasting App that predicts future sales using historical sales data.
+---
 
-✅ Solution
+## 🏗️ Project Workflow
 
-This project provides a Streamlit-based forecasting application where users can:
-
-Upload their sales dataset (CSV).
-
-Automatically preprocess and clean the data.
-
-Train a Random Forest Regressor model.
-
-Evaluate performance using MAE & R² score.
-
-Generate 7-day sales forecasts with interactive charts.
-
-🏗️ Project Workflow
-
-
+```mermaid
 graph TD
 A[Upload CSV File] --> B[Data Preprocessing]
 B --> C[Feature Engineering_lags]
 C --> D[Train-Test Split]
 D --> E[Train Random Forest Model]
-E --> F[Evaluate MAE R2]
+E --> F[Evaluate MAE & R²]
 F --> G[Future Forecast 7 Days]
 G --> H[Interactive Dashboard in Streamlit]
 
